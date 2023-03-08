@@ -11,12 +11,12 @@
   
   <distributionManagement>
     <snapshotRepository>
-       <id>nexus-releases</id>
-       <url>http://13.39.51.5:8081/repository/maven-releases/</url>
+       <id>nexus-snapshots</id>
+       <url>http://13.39.51.5:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>nexus-snapshots</id>
-      <url>http://13.39.51.5:8081/repository/maven-snapshots/</url>
+      <id>nexus-releases</id>
+      <url>http://13.39.51.5:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
   
