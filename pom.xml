@@ -22,6 +22,18 @@
     </dependency>
   </dependencies>
   
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://13.39.51.5:8081/repository/maven-releases/</url>
+   </snapshotRepository>
+  </distributionManagement>
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://13.39.51.5:8081/repository/maven-snapshots/</url>
+   </snapshotRepository>
+  </distributionManagement>
   <build>
     <finalName>myFirstServlet</finalName>
   </build>
